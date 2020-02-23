@@ -1,1 +1,97 @@
-<mxfile host="www.draw.io" modified="2020-02-23T14:51:31.829Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" version="12.7.4" etag="IT7gY0e2rPBokEQlSXw1" type="github"><diagram id="lnqELtTo293z6aNDuHN4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="www.draw.io" modified="2020-02-23T16:08:08.652Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36" etag="Fhpt8qNXqTARckzqx_u_" version="12.7.4" type="github">
+  <diagram id="lnqELtTo293z6aNDuHN4" name="第 1 页">
+    <mxGraphModel dx="1577" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_EAEVx706mbjmcRCzkSx-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_EAEVx706mbjmcRCzkSx-1" target="_EAEVx706mbjmcRCzkSx-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-1" value="载入seer-sdk.js" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="259" y="200" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-2" value="加载、检查配置&lt;br&gt;采集同步数据&lt;br&gt;上报PAGE_VIEW事件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="429" y="200" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-6" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="290" as="sourcePoint" />
+            <mxPoint x="600" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-7" value="打开页面" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="220" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-8" value="用户点击" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="450" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-9" value="USER_CLICK" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="259" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-10" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="410" as="sourcePoint" />
+            <mxPoint x="600" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-11" value="定时上报" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="340" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-12" value="HEART_BEAT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="259" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-13" value="2秒/次" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="429" y="340" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-14" value="上报用户点击区域与元素&lt;br&gt;实现无埋点统计" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="429" y="445" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-15" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="510" as="sourcePoint" />
+            <mxPoint x="600" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-16" value="主动上报" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="550" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-17" value="CUSTOM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="259" y="530" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-18" value="业务方主动按需上报" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="429" y="550" width="120" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-19" value="额外信息上报" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="650" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-20" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="610" as="sourcePoint" />
+            <mxPoint x="600" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-21" value="ADDITION" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="259" y="630" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-23" value="业务方根据需要上报用户的&lt;br&gt;openid、custom_user_id等信息" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="429" y="645" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-24" value="错误上报" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="740" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-25" value="" style="endArrow=none;dashed=1;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="710" as="sourcePoint" />
+            <mxPoint x="600" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-26" value="ERROR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="259" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_EAEVx706mbjmcRCzkSx-27" value="捕捉客户端错误信息并上报" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="429" y="750" width="160" height="20" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
